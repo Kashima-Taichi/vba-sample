@@ -1,0 +1,7 @@
+Sub tenkihensu()
+    Dim i As Long
+        For i = 1 To 5
+        Worksheets("A").Cells(i, 1).Value = Worksheets("B").Cells(i, 1).Value
+        Next
+    Worksheets("A").Activate
+End Sub
